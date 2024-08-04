@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d606617640.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Weather App</title>
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <i class="fa-solid fa-bolt" id="navbar--logo"></i>
+        <h1>Weather App</h1>
+    </div>
+    <div class="container">
+        <div class="search--bar">
+            <input type="text" id="city" placeholder="Enter the location">
+           <button id="submit"><i class="fa-solid fa-magnifying-glass " id="search--icon"></i></button> 
+        </div>
+        <div class="info">
+            <div class="temp">
+                <h1><span id="temp"></span> °C</h1>
+                <h2><span id="cityName"></span></h2>
+            </div>
+            <div class="details">
+                <div class="col">
+                    <img src="./Images/humidity.png" alt="" class="detail--icon">
+                    <p><span id="humidity"></span> %</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="col">
+                    <img src="./Images/wind.png" alt="" class="detail--icon">
+                    <p><span id="wind_speed"></span> mph</p>
+                    <p>Wind Velocity</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <p class="footer--text">Created by Monika Dalawat | &#169; Copyrights Reserved 2024</p>
+    </div>
+   
+
+    <script src="script.js"></script>
+   
+</body>
+
+</html>
